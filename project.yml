@@ -1,4 +1,49 @@
 sidebar:
-
-homepage:
-  tiles: 
+  entries:
+    - title: Astra product family documentation
+      url: /index.html
+product-family:
+  search:"clouddocs-astra-control-service_main-prod",clouddocs-astra-control-center_main-prod",clouddocs-astra-data-store_main-prod",clouddocs-astra-automation_main-prod","clouddocs-trident_main-prod"
+sidebarlinks:
+    - title: All products
+      tags: tag_application_data_management,tag_storage_management,tag_data_storage,tag_api
+      class: active
+    - title: Application data management
+      tags: tag_application_data_management
+    - title: Storage provisioning and management
+      tags: tag_storage_management
+    - title: Data storage
+      tags: tag_data_storage
+    - title: Automation and API
+      tags: tag_api
+tiles:
+    - title: "Get started with Astra"
+      icon: https://docs.netapp.com/us-en/astra-family/media/astra_generic.png
+      url: https://docs.netapp.com/us-en/astra-control-center/concepts/intro.html
+      summary: "Learn the basics of Astra."
+      tags: all, tag_get_started
+    - title: "Astra Control Service"
+      icon: https://docs.netapp.com/us-en/astra-family/media/astra_generic.png
+      url: https://docs.netapp.com/us-en/astra-control-service/index.html
+      summary: "Use a fully managed service operated by NetApp for application-aware data management of Kubernetes workloads in public clouds."
+      tags: all, tag_application_data_management
+    - title: "Astra Control Center"
+      icon: https://docs.netapp.com/us-en/astra-family/media/astra_generic.png
+      url: https://docs.netapp.com/us-en/astra-control-center/index.html
+      summary: "Use self-managed software for application-aware data management of on-premises Kubernetes workloads."
+      tags: all, tag_application_data_management
+    - title: "Astra Data Store"
+      icon: https://docs.netapp.com/us-en/astra-family/media/astra_generic.png
+      url: https://docs.netapp.com/us-en/astra-store/index.html
+      summary: "Use Kubernetes native shared file service for both container and VM workloads delivering enterprise data management."
+      tags: all, tag_data_storage
+    - title: "Astra Trident"
+      icon: https://docs.netapp.com/us-en/astra-family/media/astra_generic.png
+      url: https://netapp-trident.readthedocs.io/en/latest/introduction.html
+      summary: "Use CSI compliant storage provisioning and management for Kubernetes workloads with NetApp storage providers."
+      tags: all, tag_storage_management
+    - title: "Astra Automation and API"
+      icon: https://docs.netapp.com/us-en/astra-family/media/astra_generic.png
+      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      summary: "Use an API and SDKs to automate Astra workflows in your operations."
+      tags: all, tag_api
