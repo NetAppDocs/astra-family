@@ -18,7 +18,13 @@ sidebarlinks:
       tags: tag_data_storage
     - title: Automation and API
       tags: tag_api
-tiles:
+homepage:
+  tiles:
+    - title: Get started with Astra Control Center
+      #image: ./media/outline_directions_run_black_18dp.png
+      links:
+        - title: Learn about Astra Control Center
+          url: /concepts/intro.htmlhomepage
     - title: "Get started with Astra"
       icon: https://docs.netapp.com/us-en/astra-family/media/astra_generic.png
       url: https://docs.netapp.com/us-en/astra-control-center/concepts/intro.html
