@@ -3,20 +3,19 @@ sidebar:
     - title: Astra product family documentation
       url: /index.html
 product-family:
-  search:"clouddocs-astra-control-service_main-prod,clouddocs-astra-control-center_main-prod,clouddocs-astra-data-store_main-prod,clouddocs-astra-automation_main-prod,clouddocs-trident_main-prod"
-sidebarlinks:
-    - title: All products
-      tags: tag_application_data_management,tag_storage_management,tag_data_storage,tag_api
-      class: active
-    - title: Application data management
-      tags: tag_application_data_management
-    - title: Storage provisioning and management
-      tags: tag_storage_management
-    - title: Data storage
-      tags: tag_data_storage
-    - title: Automation and API
-      tags: tag_api
-homepage:
+  search: "clouddocs-astra-control-service_main-prod,clouddocs-astra-control-center_main-prod,clouddocs-astra-data-store_main-prod,clouddocs-astra-automation_main-prod,clouddocs-trident_main-prod"
+  sidebarlinks:
+      - title: All products
+        tags: tag_application_data_management,tag_storage_management,tag_data_storage,tag_api
+        class: active
+      - title: Application data management
+        tags: tag_application_data_management
+      - title: Storage provisioning and management
+        tags: tag_storage_management
+      - title: Data storage
+        tags: tag_data_storage
+      - title: Automation and API
+        tags: tag_api
   tiles:
     - title: "Get started with Astra"
       icon: https://docs.netapp.com/us-en/astra-family/media/astra_generic.png
