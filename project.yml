@@ -19,12 +19,12 @@ sidebarlinks:
 homepage:
   tiles:
     - title: "Get started with Astra"
-      icon: https://docs.netapp.com/us-en/astra-family/media/astra_generic.png
+      icon: https://docs.netapp.com/us-en/astra-family/media/astra.png
       url: https://docs.netapp.com/us-en/astra-control-center/concepts/intro.html
       summary: "Learn the basics of Astra."
       tags: all, tag_get_started
     - title: "Astra Control Service"
-      icon: https://docs.netapp.com/us-en/astra-family/media/astra_generic.png
+      icon: https://docs.netapp.com/us-en/astra-family/media/astra.png
       url: https://docs.netapp.com/us-en/astra-control-service/index.html
       summary: "Use a fully managed service operated by NetApp for application-aware data management of Kubernetes workloads in public clouds."
       tags: all, tag_application_data_management
