@@ -6,7 +6,7 @@ product-family:
   search: "clouddocs-astra-control-service_main-prod,clouddocs-astra-control-center_main-prod,clouddocs-astra-data-store_main-prod,clouddocs-astra-automation_main-prod,clouddocs-trident_main-prod"
   sidebarlinks:
       - title: All products
-        tags: tag_application_data_management,tag_storage_management,tag_data_storage,tag_api
+        tags: tag_application_data_management,tag_storage_management,tag_data_storage,tag_api,tag_get_started
         class: active
       - title: Application data management
         tags: tag_application_data_management
