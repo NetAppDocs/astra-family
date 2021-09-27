@@ -18,17 +18,17 @@ product-family:
         tags: tag_api
   tiles:
     - title: "Get started with Astra"
-      icon: https://docs.netapp.com/us-en/astra-family/media/astra.png
+      icon: ./media/astra_generic.png
       url: https://docs.netapp.com/us-en/astra-control-center/concepts/intro.html
       summary: "Learn the basics of Astra."
       tags: all, tag_get_started
     - title: "Astra Control Service"
-      icon: https://docs.netapp.com/us-en/astra-family/media/astra.png
+      icon: ./media/astra_generic.png
       url: https://docs.netapp.com/us-en/astra-control-service/index.html
       summary: "Use a fully managed service operated by NetApp for application-aware data management of Kubernetes workloads in public clouds."
       tags: all, tag_application_data_management
     - title: "Astra Control Center"
-      icon: https://docs.netapp.com/us-en/astra-family/media/astra_generic.png
+      icon: ./media/astra_generic.png
       url: https://docs.netapp.com/us-en/astra-control-center/index.html
       summary: "Use self-managed software for application-aware data management of on-premises Kubernetes workloads."
       tags: all, tag_application_data_management
@@ -43,7 +43,7 @@ product-family:
       summary: "Use CSI compliant storage provisioning and management for Kubernetes workloads with NetApp storage providers."
       tags: all, tag_storage_management
     - title: "Astra Automation and API"
-      icon: https://docs.netapp.com/us-en/astra-family/media/astra_generic.png
+      icon: ./media/astra_generic.png
       url: https://docs.netapp.com/us-en/astra-automation/index.html
       summary: "Use an API and SDKs to automate Astra workflows in your operations."
       tags: all, tag_api
