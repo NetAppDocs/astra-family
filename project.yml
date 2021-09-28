@@ -25,7 +25,7 @@ product-family:
     - title: "Astra Control Service"
       icon: ./media/astra_generic.png
       url: https://docs.netapp.com/us-en/astra/index.html
-      summary: "Use a fully managed service operated by NetApp for application-aware data management of Kubernetes workloads in public clouds."
+      summary: "Use a service managed by NetApp for app-aware data management of Kubernetes workloads in public clouds."
       tags: all, tag_application_data_management
     - title: "Astra Control Center"
       icon: ./media/astra_generic.png
