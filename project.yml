@@ -17,10 +17,10 @@ product-family:
       - title: Automation and API
         tags: tag_api
   tiles:
-    - title: "Get started with Astra"
+    - title: "Learn about the Astra family"
       icon: ./media/astra_generic.png
-      url: https://docs.netapp.com/us-en/astra-control-center/concepts/intro.html
-      summary: "Learn the basics of Astra."
+      url: intro-family.html
+      summary: "Learn about the Astra family of products."
       tags: all, tag_get_started
     - title: "Astra Control Service"
       icon: ./media/astra_generic.png
