@@ -16,19 +16,8 @@ Astra offerings include:
 * *Astra Control*: Use application-aware, data management tools that manage, protect, and move Kubernetes workloads in both public clouds and on-premises.​
 ** *Astra Control Service*: Use a service managed by NetApp for data management of Kubernetes workloads in public clouds.
 ** *Astra Control Center*: Use self-managed software for data management of on-premises Kubernetes workloads.
-* *Astra Data Store*: Use a Kubernetes-native shared file service for container and VM workloads for enterprise data management.
 * *Astra Trident*: Use Container Storage Interface (CSI) compliant storage provisioning and management for Kubernetes workloads with NetApp storage providers.
 
-[cols=2*,options="header",cols="1h,2d"]
-|===
-| Function
-| Product
-| Management |
-Astra Control Service
-Astra Control Center
-Astra Trident
-| Storage | Astra Data Store
-|===
 
 == Astra Control
 Astra Control is a Kubernetes application data lifecycle management solution that simplifies operations for stateful applications. Easily protect, back up, and migrate Kubernetes workloads, and instantly create working application clones.
@@ -53,7 +42,11 @@ Astra Control continually watches your compute for state changes, so it’s awar
 Astra Control is available in two deployment models:
 
 * *Astra Control Service*: A NetApp-managed service that provides application-aware data management of Kubernetes clusters in Google Kubernetes Engine (GKE) and Azure Kubernetes Service (AKS).
++
+https://docs.netapp.com/us-en/astra/index.html[Astra Control Service documentation^]
 * *Astra Control Center*: Self-managed software that provides application-aware data management of Kubernetes clusters running in your on-premises environment.
++
+https://docs.netapp.com/us-en/astra-control-center/[Astra Control Center documentation^]
 
 [cols=3*,options="header",cols="1h,2d,2d"]
 |===
@@ -67,9 +60,8 @@ Astra Control is available in two deployment models:
 | What is the backend storage support? | NetApp cloud service offerings | NetApp ONTAP AFF and FAS systems
 |===
 
-https://docs.netapp.com/us-en/astra/index.html[Astra Control Service documentation^]
 
-https://docs.netapp.com/us-en/astra-control-center/[Astra Control Center documentation^]
+
 
 == Astra Trident
 
@@ -77,22 +69,13 @@ Astra Trident is NetApp’s open source implementation of a Kubernetes Container
 
 https://docs.netapp.com/us-en/trident/index.html[Astra Trident documentation^]
 
-//== Astra Data Store
-
-//Astra Data Store is a distributed parallel file system that delivers scalable and shared file and block data services native to a Kubernetes cluster with enterprise data management capabilities​.
-​
-//Astra Data Store includes these key features:
-
-//* Is packaged and delivered as software​
-//* Runs on third party commodity hardware​
-//* Provides a common data plane for traditional and cloud-native applications ​
 
 
 == For more information
 
 * https://docs.netapp.com/us-en/astra/index.html[Astra Control Service documentation^]
 * https://docs.netapp.com/us-en/astra-control-center/[Astra Control Center documentation^]
-* https://docs.netapp.com/us-en/astra-automation/index.html[Use the Astra API^]
 * https://docs.netapp.com/us-en/trident/index.html[Astra Trident documentation^]
+* https://docs.netapp.com/us-en/astra-automation/index.html[Astra Control API^]
 * https://docs.netapp.com/us-en/cloudinsights/[Cloud Insights documentation^]
 * https://docs.netapp.com/us-en/ontap/index.html[ONTAP documentation^]
