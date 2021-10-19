@@ -10,7 +10,7 @@ product-family:
         class: active
       - title: Application data management
         tags: tag_application_data_management
-      - title: Storage provisioning and management
+      - title: Storage management
         tags: tag_storage_management
       - title: Data storage
         tags: tag_data_storage
@@ -30,7 +30,7 @@ product-family:
     - title: "Astra Control Center"
       icon: ./media/Astra_Control_logo.png
       url: https://docs.netapp.com/us-en/astra-control-center/index.html
-      summary: "Use self-managed software for application-aware data management of on-premises Kubernetes workloads."
+      summary: "Use self-managed software for app-aware data management of on-premises Kubernetes workloads."
       tags: all, tag_application_data_management
     - title: "Astra Data Store"
       icon: ./media/Astra_Data_Store_logo.png
