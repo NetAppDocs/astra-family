@@ -1,3 +1,10 @@
+---
+settings:
+  name: Astra Family
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
 sidebar:
   entries:
     - title: Astra product family documentation
