@@ -45,7 +45,7 @@ product-family:
       summary: "Use Kubernetes native shared file service for both container and VM workloads delivering enterprise data management."
       tags: all, tag_data_storage
     - title: "Astra Trident"
-      icon: ./media/Astra_Trident_logo_line.png
+      icon: ./media/Astra_Trident_logo_line2.png
       url: https://docs.netapp.com/us-en/trident/index.html
       summary: "Use CSI compliant storage provisioning and management for Kubernetes workloads with NetApp storage providers."
       tags: all, tag_storage_management
