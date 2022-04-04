@@ -2,14 +2,14 @@
 
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>astra-family</title>
+    <title>astra-family | NetApp Documentation</title>
     <atom:link href="https://docs.netapp.com/us-en/astra-family/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://docs.netapp.com/us-en/astra-family</link>
-    <description>The latest updates from NetApp Cloud Docs</description>
+    <description>The latest updates from NetApp Documentation</description>
     <language>en-us</language>
     <ttl>60</ttl>
-    <pubDate>Mon, 28 Feb 2022 18:15:25 +0000</pubDate>
-    <lastBuildDate>Mon, 28 Feb 2022 18:15:25 +0000</lastBuildDate>
+    <pubDate>Mon, 04 Apr 2022 22:02:56 +0000</pubDate>
+    <lastBuildDate>Mon, 04 Apr 2022 22:02:56 +0000</lastBuildDate>
     
   </channel>
 </rss>
