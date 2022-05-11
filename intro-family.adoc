@@ -4,7 +4,7 @@ keywords: introduction, how astra works, how Astra works, what Astra is, astra c
 summary: Astra is a Kubernetes application data lifecycle management service that simplifies operations for stateful applications. Easily protect, back up, and migrate Kubernetes workloads, and instantly create working application clones.
 ---
 
-= Intro to the Astra family
+= Learn about the Astra product family
 :hardbreaks:
 :icons: font
 :imagesdir: ./media/
@@ -30,6 +30,12 @@ Astra Control Center
 Astra Trident
 | Storage | Astra Data Store
 |===
+
+The following image shows the Astra portfolio.
+image:astra-product-family.png[Astra product family]
+
+
+== Astra family ecosystem
 
 The following image shows the Astra family ecosystem.
 image:astra-ads-architecture-diagram-v3.png[Astra  architecture diagram and components]
@@ -78,7 +84,7 @@ https://docs.netapp.com/us-en/astra-control-center/[Astra Control Center documen
 |===
 
 
-== Astra Data Store 
+== Astra Data Store
 
 Astra Data Store is a distributed parallel file system that delivers scalable and shared file and block data services native to a Kubernetes cluster with enterprise data management capabilities.
 
