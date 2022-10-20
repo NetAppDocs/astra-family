@@ -1,6 +1,6 @@
 settings:
   name: Astra Family
-  search: "astra-control-service,astra-control-center,astra-data-store,astra-automation,trident"
+  search: "astra-control-service,astra-control-center,astra-automation,trident"
   internal:
     pdf_enabled: true
   prod:
