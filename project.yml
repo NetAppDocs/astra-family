@@ -2,9 +2,9 @@ settings:
   name: Astra Family
   search: "astra-control-service,astra-control-center,astra-automation,trident"
   internal:
-    pdf_enabled: true
+    pdf_enabled: false
   prod:
-    pdf_enabled: true
+    pdf_enabled: false
     harmony_enabled: true
 sidebar:
   entries:
