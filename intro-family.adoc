@@ -42,15 +42,13 @@ Astra Control offers critical capabilities for Kubernetes application data lifec
 * Clone an application from staging to production
 * Replicate applications to a remote system using NetApp SnapMirror technology 
 * Visualize application health and protection status
-* Work with a user interface or an API to implement your backup and migration workflows
-
-// Astra Control continually watches your compute for state changes, so it’s aware of any new apps that you add along the way.
+* Work with a web UI or an API to implement your backup and migration workflows
 
 
 === Deployment models
 Astra Control is available in two deployment models:
 
-* *Astra Control Service*: A NetApp-managed service that provides application-aware data management of Kubernetes clusters in Amazon Web Services (AWS), Azure Kubernetes Service (AKS), and Google Kubernetes Engine (GKE).
+* *Astra Control Service*: A NetApp-managed service that provides application-aware data management of Kubernetes clusters in multiple cloud provider environments as well as self-managed Kubernetes clusters.
 +
 https://docs.netapp.com/us-en/astra/index.html[Astra Control Service documentation^]
 * *Astra Control Center*: Self-managed software that provides application-aware data management of Kubernetes clusters running in your on-premises environment. Astra Control Center can also be installed with a NetApp Cloud Volumes ONTAP storage backend on Amazon Web Services, Microsoft Azure, and Google Cloud Platform (GCP). 
@@ -68,13 +66,21 @@ https://docs.netapp.com/us-en/astra-control-center/[Astra Control Center documen
 | What is the storage backend support? | * Amazon Web Services: 
 ** Amazon EBS 
 ** Amazon FSx for NetApp ONTAP 
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^]
 * Google Cloud: 
 ** Google Persistent Disk 
 ** NetApp Cloud Volumes Service 
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^]
 * Microsoft Azure: 
 ** Azure Managed Disks 
-** Azure NetApp Files | * NetApp ONTAP AFF and FAS systems 
-* Cloud Volumes ONTAP storage backend
+** Azure NetApp Files 
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^] 
+* Self-managed clusters
+** Amazon EBS
+** Google Persistent Disk
+** Azure Managed Disks
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^] | * NetApp ONTAP AFF and FAS systems 
+* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^]
 |===
 
 
