@@ -67,7 +67,7 @@ https://docs.netapp.com/us-en/astra-control-center/[Astra Control Center documen
 | What is the storage backend support? | * Amazon Web Services: 
 ** Amazon EBS 
 ** Amazon FSx for NetApp ONTAP 
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^]
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html[Cloud Volumes ONTAP^]
 * Google Cloud: 
 ** Google Persistent Disk 
 ** NetApp Cloud Volumes Service 
@@ -75,13 +75,13 @@ https://docs.netapp.com/us-en/astra-control-center/[Astra Control Center documen
 * Microsoft Azure: 
 ** Azure Managed Disks 
 ** Azure NetApp Files 
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^] 
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html[Cloud Volumes ONTAP^] 
 * Self-managed clusters:
 ** Amazon EBS
 ** Google Persistent Disk
 ** Azure Managed Disks
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^] | * NetApp ONTAP AFF and FAS systems 
-* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^]
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html[Cloud Volumes ONTAP^] | * NetApp ONTAP AFF and FAS systems 
+* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html[Cloud Volumes ONTAP^]
 |===
 
 
