@@ -17,7 +17,7 @@ product-family:
       icon: ./media/Astra_Family_logo_line.png
       url: intro-family.html
       summary: "Learn about the Astra family of products."
-      tags: tag_all
+      tags: tag_all, tag_application_data_management, tag_storage_management, tag_api
     - title: "Astra Control Service"
       icon: ./media/Astra_Control_logo_line.png
       url: ../astra/index.html
