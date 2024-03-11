@@ -128,11 +128,11 @@ https://docs.netapp.com/us-en/astra-control-center/[Astra Control Center documen
 
 //https://docs.netapp.com/us-en/astra-data-store/[Astra Data Store documentation^]
 
-== Astra Trident
+//== Astra Trident
 
-Astra Trident is NetApp’s open source implementation of a Kubernetes Container Storage Interface (CSI) driver​. Astra Trident provides orchestration and data connectivity for Kubernetes applications​.
+//Astra Trident is NetApp’s open source implementation of a Kubernetes Container Storage Interface (CSI) driver​. Astra Trident provides orchestration and data connectivity for Kubernetes applications​.
 
-https://docs.netapp.com/us-en/trident/index.html[Astra Trident documentation^]
+//https://docs.netapp.com/us-en/trident/index.html[Astra Trident documentation^]
 
 
 
