@@ -4,12 +4,13 @@ keywords: introduction, how astra works, how Astra works, what Astra is, astra c
 summary: Astra is a Kubernetes application data lifecycle management service that simplifies operations for stateful applications. Easily protect, back up, and migrate Kubernetes workloads, and instantly create working application clones.
 ---
 
-= Learn about the Astra product family
+= Learn about Astra Control
 :hardbreaks:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
+////
 The NetApp Astra product family provides application data management and storage for cloud native applications.
 
 Astra offerings include:
@@ -24,8 +25,9 @@ Astra offerings include:
 //The following image shows the Astra portfolio.
 //image:astra-product-family.png[Astra product family]
 
+////
 
-== Astra Control
+//== Astra Control
 Astra Control is a Kubernetes application data lifecycle management solution that simplifies operations for stateful applications. Easily protect, back up, and migrate Kubernetes workloads, and instantly create working application clones.
 
 
@@ -50,14 +52,33 @@ image:astra-family-architecture-v1_IEOPS-1558.png[Astra Control architecture]
 Astra Control is built on four complementary components:
 
 * *Astra Control*: Astra Control is the centralized management service for all clusters under management, providing orchestrated workloads for application protection and mobility in the cloud and on-premises.
-* *Astra Connector*: Astra Connector teams with Astra Control to provide a secure connection to each cluster under management, offering local execution of scheduled operations regardless of connection status. 
+** Provides combined view of multiple clusters/clouds
+** Enables orchestrated workflows: App Mirror / Application Cloning
+** Enables centralized bucket management (Azure Blob, AWS S3, Google Cloud Storage, StorageGRID)
+** Eases account management (user configuration, LDAP integration)
+** Provides centralized notifications
+** Enables resource visualization and selection
+** Provides script management - Centralized scripts that can be applied through execution hooks for added application aware operations
+* *Astra Connector*: Astra Connector teams with Astra Control to provide a secure connection to each cluster under management, offering local execution of scheduled operations regardless of connection status.
+** Enables local execution of scheduled operations regardless of connection status
+** Local operations distribute and optimize system resource usage of Astra across clusters
+** Local installation enables least privilege access to cluster for improved security
 * *Astra Custom Resources*: Custom Resources used on each cluster provide a Kubernetes-native approach to running operations locally, simplifying integration with other Kubernetes-friendly tooling and automation. 
+** Provides CSI - dynamic storage provisioning for containerized workloads
+** Provides advanced storage management
+*** Enables in-flight encryption of data from container to PV
+*** Provides SnapMirror Cloud functionality
+*** Enables Azure NetApp Files cross-region, cross-zone replication
 * *Astra Control Provisioner*: Astra Control Provisioner delivers core CSI provisioning functionality and advanced storage management capabilities for added security and disaster recovery configuration.
+** CRs enable direct eco-system tool integration/automation workflows
+** Provides lower-level primitives that enable custom workflows
 
 With the most recent software release, Astra Control is Kubernetes-native, enabling new data protection workflows while staying backward-compatible with the existing API and SDK. Kubernetes-native data protection offers significant advantages; by seamlessly integrating with Kubernetes APIs and resources, data protection can become an inherent part of the application lifecycle through an organization's existing CI/CD and/or GitOps tools.
 
 === Deployment models
-Astra Control is available in two deployment models:
+Astra Control is available in two deployment models.
+
+image:astra-architecture-diagram-v6.png[Astra deployment  models]
 
 * *Astra Control Service*: A NetApp-managed service that provides application-aware data management of Kubernetes clusters in multiple cloud provider environments as well as self-managed Kubernetes clusters.
 +
