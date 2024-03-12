@@ -87,32 +87,68 @@ https://docs.netapp.com/us-en/astra/index.html[Astra Control Service documentati
 +
 https://docs.netapp.com/us-en/astra-control-center/[Astra Control Center documentation^]
 
-[cols=3*,options="header",cols="1h,2a,2a"]
+[cols=3*,options="header",cols="1h,2d,2a"]
 |===
 |
 | Astra Control Service
 | Astra Control Center
-| How is it offered? | As a fully managed cloud service from NetApp | As software that you download, install, and manage
+| How is it offered? | As a fully managed cloud service from NetApp | As software that you can download, install, and manage
 | Where is it hosted? | On a public cloud of NetApp's choice | On your own Kubernetes cluster
 | How is it updated? | Managed by NetApp | You manage any updates
-| What is the storage backend support? | * Amazon Web Services: 
-** Amazon EBS 
-** Amazon FSx for NetApp ONTAP 
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html[Cloud Volumes ONTAP^]
-* Google Cloud: 
-** Google Persistent Disk 
-** NetApp Cloud Volumes Service 
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^]
-* Microsoft Azure: 
-** Azure Managed Disks 
-** Azure NetApp Files 
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html[Cloud Volumes ONTAP^] 
-* Self-managed clusters:
+|What are the supported Kubernetes distributions?
+a|
+* *Cloud providers*
+** Amazon Web Services
+*** Amazon Elastic Kubernetes Service (EKS) 
+** Google Cloud
+*** Google Kubernetes Engine (GKE)
+** Microsoft Azure
+*** Azure Kubernetes Service (AKS)
+* *Self-managed clusters*
+** Kubernetes (Upstream)
+** Rancher Kubernetes Engine (RKE)
+** Red Hat OpenShift Container Platform
+* *On-premise clusters*
+** Red Hat OpenShift Container Platform on-premise
+a|
+* Azure Kubernetes Service on Azure Stack HCI
+* Google Anthos
+* Kubernetes (Upstream)
+* Rancher Kubernetes Engine (RKE)
+* Red Hat OpenShift Container Platform
+| What are the supported storage backends?
+a|
+* *Cloud providers*
+** Amazon Web Services
+*** Amazon EBS
+*** Amazon FSx for NetApp ONTAP
+*** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^]
+** Google Cloud
+*** Google Persistent Disk
+*** NetApp Cloud Volumes Service
+*** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^]
+** Microsoft Azure
+*** Azure Managed Disks
+*** Azure NetApp Files
+*** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html[Cloud Volumes ONTAP^]
+* *Self-managed clusters*
 ** Amazon EBS
-** Google Persistent Disk
 ** Azure Managed Disks
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html[Cloud Volumes ONTAP^] | * NetApp ONTAP AFF and FAS systems 
-* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html[Cloud Volumes ONTAP^]
+** Google Persistent Disk
+** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/[Cloud Volumes ONTAP^]
+** NetApp MetroCluster
+** https://longhorn.io/[Longhorn^]
+* *On-premise clusters*
+** NetApp MetroCluster
+** NetApp ONTAP AFF and FAS systems
+** NetApp ONTAP Select
+** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/[Cloud Volumes ONTAP^]
+** https://longhorn.io/[Longhorn^]
+|
+* NetApp ONTAP AFF and FAS systems
+* NetApp ONTAP Select
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/[Cloud Volumes ONTAP^]
+* https://longhorn.io/[Longhorn^]
 |===
 
 
