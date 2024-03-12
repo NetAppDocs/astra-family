@@ -53,7 +53,7 @@ image:astra-family-architecture-v1_IEOPS-1558.png[Astra Control architecture]
 
 Astra Control is built on four complementary components:
 
-* *Astra Control*: Astra Control is the centralized management service for all clusters under management, providing orchestrated workloads for application protection and mobility in the cloud and on-premises.
+* *Astra Control*: Astra Control is the centralized management service for all managed clusters, providing orchestrated workloads for application protection and mobility in the cloud and on-premises.
 ** Provides combined view of multiple clusters/clouds
 ** Enables orchestrated workflows: App Mirror / Application Cloning
 ** Enables centralized bucket management (Azure Blob, AWS S3, Google Cloud Storage, StorageGRID)
@@ -61,14 +61,14 @@ Astra Control is built on four complementary components:
 ** Provides centralized notifications
 ** Enables resource visualization and selection
 ** Provides script management - Centralized scripts that can be applied through execution hooks for added application aware operations
-* *Astra Connector*: Astra Connector teams with Astra Control to provide a secure connection to each cluster under management, offering local execution of scheduled operations regardless of connection status.
+* *Astra Connector*: Astra Connector teams with Astra Control to provide a secure connection to each managed cluster, offering local execution of scheduled operations regardless of connection status.
 ** Enables local execution of scheduled operations regardless of connection status
 ** Local operations distribute and optimize system resource usage of Astra across clusters
 ** Local installation enables least privilege access to cluster for improved security
 * *Astra Control Provisioner*: Astra Control Provisioner delivers core CSI provisioning functionality and advanced storage management capabilities for added security and disaster recovery configuration.
-** CRs enable direct eco-system tool integration/automation workflows
+** Custom resources (CRs) enable direct ecosystem tool integration and automation workflows
 ** Provides lower-level primitives that enable custom workflows
-* *Astra Custom Resources*: Custom Resources used on each cluster provide a Kubernetes-native approach to running operations locally, simplifying integration with other Kubernetes-friendly tooling and automation. 
+* *Astra Custom resources*: Custom resources used on each cluster provide a Kubernetes-native approach to running operations locally, simplifying integration with other Kubernetes-friendly tooling and automation. 
 ** Provides CSI - dynamic storage provisioning for containerized workloads
 ** Provides advanced storage management
 *** Enables in-flight encryption of data from container to PV
