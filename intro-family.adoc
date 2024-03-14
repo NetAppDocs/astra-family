@@ -50,16 +50,19 @@ Astra Control offers critical capabilities for Kubernetes application data lifec
 Astra Control offers critical capabilities for Kubernetes application data lifecycle management:
  
 *Store*:
+
 * Dynamic storage provisioning for containerized workloads
 * In-flight encryption of data from container to persistent volumes
 * Cross-region, cross-zone replication
  
-*Protect*: 
+*Protect*:
+
 * Automated discovery and application-aware protection of an entire application and its data
 * Instant recovery of an application from any snapshot version based on your organization's needs
 * Fast failover across zones, regions and cloud providers
  
 *Move*:
+
 * Complete application and data mobility within and between Kubernetes clusters and clouds
 * Instant clones of entire applications and data
 * One click migration of applications through consistent web UI and API
