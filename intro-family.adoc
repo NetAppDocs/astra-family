@@ -28,11 +28,12 @@ Astra offerings include:
 ////
 
 //== Astra Control
-Astra Control is a Kubernetes application data lifecycle management solution that simplifies operations for stateful applications. Easily protect, back up, and migrate Kubernetes workloads, and instantly create working application clones.
+Astra Control is a Kubernetes application data lifecycle management solution that simplifies operations for stateful applications, and helps you store, protect, and move your Kubernetes workloads across hybrid and multi-cloud environments.
 
 
 == Capabilities
 
+////
 Astra Control offers critical capabilities for Kubernetes application data lifecycle management:
 
 * Automatically manage persistent storage
@@ -44,6 +45,25 @@ Astra Control offers critical capabilities for Kubernetes application data lifec
 * Visualize application health and protection status
 * Work with a web UI or an API to implement your backup and migration workflows
 
+////
+
+Astra Control offers critical capabilities for Kubernetes application data lifecycle management:
+ 
+*Store*:
+* Dynamic storage provisioning for containerized workloads
+* In-flight encryption of data from container to persistent volumes
+* Cross-region, cross-zone replication
+ 
+*Protect*: 
+* Automated discovery and application-aware protection of an entire application and its data
+* Instant recovery of an application from any snapshot version based on your organization's needs
+* Fast failover across zones, regions and cloud providers
+ 
+*Move*:
+* Complete application and data mobility within and between Kubernetes clusters and clouds
+* Instant clones of entire applications and data
+* One click migration of applications through consistent web UI and API
+
 == Architecture
 The architecture of Astra Control enables it to provide advanced data management capabilities that enhance both the functionality and availability of Kubernetes applications, simplifies the management, protection, and movement of containerized workloads across public clouds and on-prem environments, and provides automation capabilities through its REST API and SDK, enabling programmatic access for seamless integration with existing workflows.
 
@@ -53,27 +73,22 @@ image:astra-family-architecture-v1_IEOPS-1558.png[Astra Control architecture]
 
 Astra Control is built on four complementary components:
 
-* *Astra Control*: Astra Control is the centralized management service for all managed clusters, providing orchestrated workloads for application protection and mobility in the cloud and on-premises.
-** Provides combined view of multiple clusters/clouds
-** Enables orchestrated workflows: App Mirror / Application Cloning
-** Enables centralized bucket management (Azure Blob, AWS S3, Google Cloud Storage, StorageGRID)
-** Eases account management (user configuration, LDAP integration)
-** Provides centralized notifications
-** Enables resource visualization and selection
-** Provides script management - Centralized scripts that can be applied through execution hooks for added application aware operations
-* *Astra Connector*: Astra Connector teams with Astra Control to provide a secure connection to each managed cluster, offering local execution of scheduled operations regardless of connection status.
-** Enables local execution of scheduled operations regardless of connection status
-** Local operations distribute and optimize system resource usage of Astra across clusters
-** Local installation enables least privilege access to cluster for improved security
-* *Astra Control Provisioner*: Astra Control Provisioner delivers core CSI provisioning functionality and advanced storage management capabilities for added security and disaster recovery configuration.
-** Custom resources (CRs) enable direct ecosystem tool integration and automation workflows
-** Provides lower-level primitives that enable custom workflows
-* *Astra Custom resources*: Custom resources used on each cluster provide a Kubernetes-native approach to running operations locally, simplifying integration with other Kubernetes-friendly tooling and automation. 
-** Provides CSI - dynamic storage provisioning for containerized workloads
-** Provides advanced storage management
-*** Enables in-flight encryption of data from container to PV
-*** Provides SnapMirror Cloud functionality
-*** Enables Azure NetApp Files cross-region, cross-zone replication
+* *Astra Control*: Astra Control is the centralized management service for all managed clusters, providing orchestrated workloads for application protection and mobility in the cloud and on-premises as well as the following capabilities:
+** Combined view of multiple clusters and clouds
+** Protection of orchestrated workflows
+** Granular resource visualization and selection
+* *Astra Connector*: Astra Connector teams with Astra Control to provide a secure connection to each managed cluster, offering local execution of scheduled operations regardless of connection status as well as the following capabilities:
+** Local execution of scheduled operations regardless of connection status
+** Local operations that distribute and optimize system resource usage of Astra across clusters
+** Local installation that enables least privilege access to the cluster for improved security
+* *Astra Control Provisioner*: Astra Control Provisioner delivers core CSI provisioning functionality and advanced storage management capabilities for added security and disaster recovery configuration, as well as the following capabilities:
+** Dynamic storage provisioning for containerized workloads
+** Advanced storage management:
+*** In-flight encryption of data from container to PV
+*** SnapMirror Cloud functionality with cross-region, cross-zone replication
+* *Astra Custom resources*: Custom resources used on each cluster provide a Kubernetes-native approach to running operations locally, simplifying integration with other Kubernetes-friendly tooling and automation as well as providing the following capabilities:
+** Direct ecosystem tool integration and automation workflows
+** Lower-level primitives that enable custom workflows
 
 == Deployment models
 Astra Control is available in two deployment models.
