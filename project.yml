@@ -21,7 +21,7 @@ product-family:
       - title: Automation and API
         tags: tag_api
   tiles:
-    - title: "Learn about the Astra family"
+    - title: "Learn about Astra Control"
       icon: ./media/Astra_Family_logo_line.png
       url: intro-family.html
       summary: "Learn about the Astra family of products."
