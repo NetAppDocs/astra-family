@@ -96,7 +96,7 @@ Astra Control is built on four complementary components:
 == Deployment models
 Astra Control is available in two deployment models.
 
-image:astra-architecture-diagram-v6.png[Astra deployment  models]
+image:astra-architecture-diagram-v7.png[Astra deployment models]
 
 * *Astra Control Service*: A NetApp-managed service that provides application-aware data management of Kubernetes clusters in multiple cloud provider environments as well as self-managed Kubernetes clusters.
 +
@@ -126,8 +126,8 @@ a|
 ** Kubernetes (Upstream)
 ** Rancher Kubernetes Engine (RKE)
 ** Red Hat OpenShift Container Platform
-* *On-premise clusters*
-** Red Hat OpenShift Container Platform on-premise
+* *On-premises clusters*
+** Red Hat OpenShift Container Platform on-premises
 a|
 * Azure Kubernetes Service on Azure Stack HCI
 * Google Anthos
@@ -156,7 +156,7 @@ a|
 ** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/[Cloud Volumes ONTAP^]
 ** NetApp MetroCluster
 ** https://longhorn.io/[Longhorn^]
-* *On-premise clusters*
+* *On-premises clusters*
 ** NetApp MetroCluster
 ** NetApp ONTAP AFF and FAS systems
 ** NetApp ONTAP Select
