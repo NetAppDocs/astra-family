@@ -29,7 +29,7 @@ product-family:
       summary: "Use self-managed software for app-aware data management of on-premises Kubernetes workloads."
       tags: tag_all, tag_application_data_management
     - title: "Astra Trident"
-      icon: ./media/Astra-Trident-logo1.png
+      icon: ./media/Astra-Trident-logo2.png
       url: ../trident/index.html
       summary: "Use CSI compliant storage provisioning and management for Kubernetes workloads with NetApp storage providers."
       tags: tag_all, tag_storage_management
