@@ -10,6 +10,9 @@ summary: Astra is a Kubernetes application data lifecycle management service tha
 :imagesdir: ./media/
 
 [.lead]
+
+include::https://raw.githubusercontent.com/NetAppDocs/astra-control-center/main/_include/source-architecture-v2.adoc[]
+
 ////
 The NetApp Astra product family provides application data management and storage for cloud native applications.
 
@@ -25,7 +28,7 @@ Astra offerings include:
 //The following image shows the Astra portfolio.
 //image:astra-product-family.png[Astra product family]
 
-////
+
 
 //== Astra Control
 Astra Control is a Kubernetes application data lifecycle management solution that simplifies operations for stateful applications, and helps you store, protect, and move your Kubernetes workloads across hybrid and multi-cloud environments.
@@ -33,7 +36,7 @@ Astra Control is a Kubernetes application data lifecycle management solution tha
 
 == Capabilities
 
-////
+
 Astra Control offers critical capabilities for Kubernetes application data lifecycle management:
 
 * Automatically manage persistent storage
@@ -45,7 +48,7 @@ Astra Control offers critical capabilities for Kubernetes application data lifec
 * Visualize application health and protection status
 * Work with a web UI or an API to implement your backup and migration workflows
 
-////
+
 
 Astra Control offers critical capabilities for Kubernetes application data lifecycle management:
  
@@ -198,3 +201,5 @@ a|
 * https://docs.netapp.com/us-en/astra-automation/index.html[Astra Control API^]
 * https://docs.netapp.com/us-en/cloudinsights/[Cloud Insights documentation^]
 * https://docs.netapp.com/us-en/ontap/index.html[ONTAP documentation^]
+
+////
