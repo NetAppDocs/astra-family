@@ -146,7 +146,7 @@ a|
 *** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^]
 ** Google Cloud
 *** Google Persistent Disk
-*** NetApp Cloud Volumes Service
+*** Google Cloud NetApp Volumes
 *** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html[Cloud Volumes ONTAP^]
 ** Microsoft Azure
 *** Azure Managed Disks
